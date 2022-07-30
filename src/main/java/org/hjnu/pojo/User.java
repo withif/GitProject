@@ -7,5 +7,7 @@ public class User implements Serializable {
     String username;
     String password;
 
-
+    public Integer getId() {
+        return id;
+    }
 }
