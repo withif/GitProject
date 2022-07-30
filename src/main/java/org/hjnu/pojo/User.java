@@ -7,5 +7,7 @@ public class User implements Serializable {
     String username;
     String password;
 
-
+    public void setId(Integer id) {
+        this.id = id;
+    }
 }
